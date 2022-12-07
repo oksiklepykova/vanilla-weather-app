@@ -19,7 +19,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a .active:hover {
     text-decoration: underline;
 }
 
@@ -76,7 +76,7 @@ li:first-letter {
     cursor: default;
 }
 
-.weather-temperature .active {
+.weather-temperature .active:hover {
     text-decoration: none;
 }
 
