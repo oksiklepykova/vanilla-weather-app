@@ -38,7 +38,8 @@
               </div>
             </form>
             <div class="overview">
-              <h1 id="city"></h1>
+              <h1><span id="city"></span>, 
+                  <span id="country"></span></h1>
               <ul>
                <li>Last updated: <span id="date"></span></li>
                <li id="description"></li>
@@ -52,16 +53,14 @@
                         id="icon">
                       <div> 
                        <strong id="temperature"></strong>
-                       <span class="units">
-                       <a href="#" id="celsius-link" class="active">°C</a> | 
-                       <a href="#" id="fahrenheit-link" >°F</a></span>  
+                       <span class="units">°C</span>  
                       </div>
                   </div>
                 </div>
                 <div class="col-6">
                     <ul>
                       <li>Humidity: <span id="humidity"></span>%</li>
-                      <li>Wind: <span id="wind"></span> km/h</li>
+                      <li>Wind: <span id="wind"></span> m/s</li>
                     </ul>
                 </div>
             </div>
