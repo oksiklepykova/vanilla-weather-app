@@ -44,9 +44,9 @@ li:first-letter {
 
 .weather-app {
     padding: 20px;
-    border: 1px solid #8B66F1;
+    border: 1px solid #dadde1;
     border-radius: 5px;
-    background: linear-gradient(0deg, rgb(115, 252, 247) 62%, rgb(139, 102, 241) 100%);
+    background: #f5eec2;
 }
 
 .overview {
